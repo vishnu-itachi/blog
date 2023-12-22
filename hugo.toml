@@ -10,6 +10,7 @@ copyright = "Free - [MIT](https://opensource.org/license/mit/)"
 paginate = 5
 summaryLength = 50
 
+canonifyURLs = true
 
 [params]
 
