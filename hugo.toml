@@ -1,0 +1,64 @@
+# baseURL = "https://vishnu-itachi.github.io/blog/"
+baseURL = "/"
+theme = "hugo-ficurinia"
+title = "Vishnu Itachi's blog"
+languageCode = "en"
+defaultContentLanguage = "en"
+
+copyright = "Free - [MIT](https://opensource.org/license/mit/)"
+
+paginate = 5
+summaryLength = 50
+
+
+[params]
+
+author = "Vishnu"
+description = "This is my personal blog on whatever I find interesting."
+
+
+showPostsLink = true
+
+showSinglePageAsHome = false
+
+showTags = true
+showRss = false
+
+
+enableSearch = true
+enableFooterColumns = true
+
+imageInArticlePreview = true
+fitImageInArticlePreview = false
+
+
+logo = "/logo.svg"
+logoAltText = "Logo"
+favicon = "/favicon.png"
+faviconIco = "/favicon.ico"
+appletouch = "/apple-touch-icon.png"
+svgicon = "/logo.svg"
+
+
+titleFontSizeMultiplier = 1.5
+mainFontSizeMultiplier = 1.0
+monoFontSizeMultiplier = 1.0
+
+
+[menu]
+
+[[menu.icons]]
+identifier = "github"
+name = "GitHub"
+url = "https://github.com/vishnu-itachi"
+weight = 10
+
+[[menu.icons]]
+identifier = "gitlab"
+name = "GitLab"
+url = "https://gitlab.com/vishnu-itachi"
+weight = 10
+
+
+[outputs]
+home = ["HTML", "JSON"]
