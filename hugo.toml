@@ -1,5 +1,5 @@
-# baseURL = "https://vishnu-itachi.github.io/blog/"
-baseURL = "/"
+baseURL = "https://vishnu-itachi.github.io/blog/"
+# baseURL = "/"
 theme = "hugo-ficurinia"
 title = "Vishnu Itachi's blog"
 languageCode = "en"
